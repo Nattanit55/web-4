@@ -1,0 +1,509 @@
+/*  start */
+
+.section{
+    position: relative;
+}
+
+.btn{
+    width: 9rem;
+}
+
+.margins{
+    margin-top:10rem;
+}
+
+/*  end */
+
+/* heander start */
+
+.fixed-top{
+    background-color:#65058d ;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.section--banner{
+    background-position: top;
+    height: 70vh;
+    background-size: cover;
+    border-radius: 0px 0px 200px 0px;
+    top: 0;
+    display: flex;
+}
+
+.container--space{
+    color: #FFF;
+    align-self: center;
+}
+
+.topic-header {
+    font-size: 55px;
+
+    font-weight: 700;
+    line-height: 1;
+}
+
+
+.th{
+    line-height: 0.5;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #e9ecef;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #c582f6;
+}
+
+.navbar-brand{
+    color: #FFFFFF !important;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.nav-btn{
+    margin-left: auto;
+}
+
+.collapse.show {
+    text-align: center;
+}
+
+.navbar-light .navbar-toggler {
+    background-color: #FFF;
+}
+
+.btn-outline-light:hover {
+    background-color: #d18cff;
+    border-color: #c582f6;
+}
+
+/* heander end */
+
+/* content start */
+
+.img-content{
+    height: 36vh;
+    background-size: cover;
+    
+}
+
+
+.ct-topic {
+    color: #a31eca;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.ct-text {
+    margin-top: 1rem;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.box--about{
+    margin-top: 2rem;
+}
+
+.box-content{
+    padding-left:2rem;
+}
+
+.box--ourservices{
+    margin-top: 7rem;
+}
+
+.box--contact{
+    margin-top: 2rem;
+}
+
+.card{
+    padding-top: 2rem !important;
+    padding: 1rem;
+    box-shadow: 5px 5px 20px #8080805e;
+}
+
+.card__box{
+    margin-top: 3rem;
+}
+
+.fas {
+    font-size: 2rem;
+    color: #a31eca;
+    margin-left: 1rem;
+}
+
+.slick--slider{
+    display:flex !important;
+}
+
+.slick__img {
+    height: 100%;
+    width: 100%;
+}
+
+.slick__photo {
+    display: flex;
+    height: 400px;
+    justify-content: center;
+}
+
+.item {
+    justify-content: center;
+    margin: 4rem;
+}
+
+.slick-prev{
+    display: block;
+    margin-right: 15px;
+    border-radius: 5rem;
+    align-self: center;
+    color: #8e04b2;
+}
+
+
+
+.slick-next {
+    display: block;
+    margin-left: 15px;
+    border-radius: 5rem;
+    align-self: center;
+    color: #8e04b2;
+}
+
+.fa-chevron-right,.fa-chevron-left:before {
+    color: #FFF;
+}
+
+.btn:hover {
+    color: #FFFFFF;
+}
+
+.btn-check:focus+.btn, .btn:focus {
+    box-shadow: none;
+}
+
+.close-btn {
+    border: none;
+    background: none;
+    margin-left: auto;
+}
+
+.fa-times:before {
+    font-size: 16px;
+    color: #000000;
+}
+
+.img-element{
+    position: absolute;
+    z-index: -1;
+}
+
+.img-element--left{
+    width: 140px;
+    top: -8rem;
+    left: 0;
+}
+
+.img-element--right {
+    top: -7rem;
+    right: 0;
+    width: 17rem;
+}
+
+
+
+.img--abouts{
+    background-repeat: no-repeat;
+    background-size: 16rem;
+    background-position: right;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 15rem;
+    right: 0;
+    z-index: -1;
+}
+
+.bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg--slick {
+    padding: 150px 0 200px;
+    margin-top: -70px;
+}
+
+.bg--service{
+    padding: 200px 0 200px;
+}
+
+    /* form contact start */
+
+    .text-on-pannel {
+        color: #2125294d;
+        background: #fff none repeat scroll 0 0;
+        margin-left: 20px;
+        padding: 3px 5px;
+        position: absolute;
+        margin-top: -14px;
+    }
+
+    .form-control{
+        color: #6838e5;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .form-control:focus {
+        color: #6838e5;
+    }
+
+    /* form contact end */
+
+/* content end */
+
+/* footer start */
+
+.bg--footer {
+    margin-top: 10rem;
+    background-image: linear-gradient(to top right,#ce8afd,#65058d);
+    border-radius: 13rem 13rem 0rem 0rem;
+}
+
+.box--content-ft{
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.logo {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.navbar__ft{
+    text-align: center;
+}
+
+.box__social {
+    text-align: center;
+}
+
+.social {
+    margin-right: 10px;
+    color: #cb7efe;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.text__ft{
+    color: #FFFFFF;
+    text-align: center;
+}
+/* footer end */
+
+
+@media (max-width: 767.98px) { 
+.w-75 {
+    width: 100%!important;
+}
+
+.margins {
+    margin-top: 3rem;
+}
+
+.topic-header {
+    font-size: 30px;
+}
+
+.text-header{
+    font-size: 11px;
+}
+
+.section--banner {
+    height: 60vh;
+    border-radius: 0px 0px 120px 0px;
+}
+
+.ct-topic {
+    font-size: 25px;
+}
+
+.ct-text {
+    font-size: 2.5rem;
+}
+
+.container--space {
+    margin-top: 5rem;
+}
+
+.box-content {
+    text-align: center;
+    padding: 0px 1rem 0px;
+}
+
+.bg--service {
+    padding: 45px 0 170px;
+    background-position: center;
+}
+
+.card {
+    margin-top: 3rem;
+}
+
+.card__box {
+    margin-top: 0rem;
+}
+
+.bg--slick {
+    padding: 50px 0 50px;
+    margin-top: -70px;
+}
+
+.slick-list{
+    padding: 0rem 0rem;
+}
+
+.slick__photo {
+    height: 200px;
+    
+}
+
+.slick__img {
+    width: 213px;
+    padding: 3rem;
+}
+
+.slick-prev {
+    margin-right: 0px;
+}
+
+.item {
+    margin: 4rem;
+}
+
+.slick-track{
+    width: 9999px !important;
+}
+
+.fa-chevron-right, .fa-chevron-left:before {
+    font-size: 17px;
+}
+
+form{
+    text-align: center;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.bg--footer {
+    border-radius: 7rem 7rem 0rem 0rem;
+}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px){
+.header {
+    background-color: #65058d;
+}
+
+.w-75 {
+    width: 100%!important;
+}
+
+.margins {
+    margin-top: 5rem;
+}
+
+.section--banner {
+    height: 46vh;
+}
+
+.container--space {
+    padding-top: 6rem;
+}
+
+.bg--service{
+    background-position: center;
+}
+
+.bg--service {
+    padding: 80px 0 180px;
+}
+
+.box--about, .box-content{
+    text-align: center;
+
+}
+
+form{
+    text-align: center;
+}
+
+.box__social {
+    width: 20%;
+    margin-left: -2.5rem;
+}
+
+.slick__photo {
+    height: 300px;
+}
+
+.navbar__ft {
+    margin-left: 36px;
+}
+
+.bg--footer {
+    border-radius: 10rem 10rem 0rem 0rem;
+}
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.section--banner {
+    height: 40vh;
+}
+
+.box--ourservices {
+    margin-left: auto;
+    align-self: center;
+}
+
+.btn {
+    width: 8rem;
+}
+
+.margins {
+    margin-top: 5rem;
+}
+
+.logo {
+    font-size: 2rem;
+    padding-left: 3rem;
+}
+
+.social {
+    font-size: 1.5rem;
+}
+
+.box--about {
+    padding-left: 2rem;
+}
+
+}
